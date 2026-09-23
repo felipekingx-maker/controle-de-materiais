@@ -22,9 +22,9 @@ Alternativa: abra a pasta no VS Code e sirva `index.html` com a extensão Live S
 
 ## 2. Conexão ao Supabase existente
 
-O arquivo `js/config.js` já está configurado com a URL e a chave pública fornecidas em 22/09/2026. Você não precisa preencher esses dados novamente. O prefixo `NEXT_PUBLIC_` que veio do painel foi adaptado aos nomes usados pelo JavaScript deste projeto; não é necessário Next.js nem arquivo `.env`.
+Crie o arquivo `js/config.js` ou edite caso já exista, preenchendo a URL e a chave pública fornecidas em 22/09/2026. Você deve preencher esses dados com os detalhes do seu projeto. O prefixo `NEXT_PUBLIC_` que veio do painel foi adaptado aos nomes usados pelo JavaScript deste projeto; não é necessário Next.js nem arquivo `.env`.
 
-Somente para trocar de projeto no futuro, edite as duas constantes:
+Edite as duas constantes com os dados do seu Supabase:
 
 ```js
 export const SUPABASE_URL = 'https://SEU-PROJETO.supabase.co';
